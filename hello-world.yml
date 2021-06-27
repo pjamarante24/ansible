@@ -1,7 +1,7 @@
 - name: This is a hello-world example
   hosts: all
   tasks:
-    - name: Create a file called '~/testfile.txt' with the content 'hello world'.
+    - name: Crea un archivo llamado '~/testfile.txt' con el contenido 'hello world'.
       copy:
-        content: hello worldn
+        content: hello world!
         dest: ~/testfile.txt
